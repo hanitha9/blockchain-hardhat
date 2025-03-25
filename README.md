@@ -97,10 +97,10 @@ Deploy the contract in a second terminal:
 cd C:\Users\HANITHA\blockchain-hardhat
 npx hardhat run scripts/deploy.js --network hardhat
 ```
-### output:
-  # output on terminal after node launch
+# output:
+  ## output on terminal 1 after node launch
    ![image](https://github.com/user-attachments/assets/10b16d80-92eb-4306-b2e8-a4be113420a0)
-  # output on terminal 2
+  ## output on terminal 2
 ![image](https://github.com/user-attachments/assets/d6a6fccd-d20b-4107-a040-9bcadd1d0d44)
 
 ### 7.Final Output
