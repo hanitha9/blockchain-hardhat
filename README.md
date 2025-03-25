@@ -100,6 +100,4 @@ git remote add origin <your-repo-url>
 git push -u origin main
 ```
 
-### 9. Submit
-Submit the GitHub repository link via the provided form.
 
