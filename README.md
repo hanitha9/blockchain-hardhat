@@ -86,7 +86,7 @@ npx hardhat node
 Deploy to test fixes:
 ```bash
 npx hardhat run scripts/deploy.js --network hardhat
-
+```
 ### 7. Run the Final Simulation
 Start the Hardhat node in one terminal:
 ```bash
@@ -97,8 +97,13 @@ Deploy the contract in a second terminal:
 cd C:\Users\HANITHA\blockchain-hardhat
 npx hardhat run scripts/deploy.js --network hardhat
 ```
+### output:
+  # output on terminal after node launch
+    ![image](https://github.com/user-attachments/assets/10b16d80-92eb-4306-b2e8-a4be113420a0)
+  # output on terminal 2
+![image](https://github.com/user-attachments/assets/d6a6fccd-d20b-4107-a040-9bcadd1d0d44)
 
-### Final Output
+### 7.Final Output
 ```sh
 C:\Users\HANITHA\blockchain-hardhat>npx hardhat run scripts/deploy.js --network hardhat
 SimpleBlockchain deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
