@@ -43,14 +43,18 @@ Create a deployment script inside the `scripts/` directory, such as `deploy.js`.
 ```sh
 npx hardhat run scripts/deploy.js --network hardhat
 ```
-
-## Running the Simulation
-After deployment, execute the blockchain simulation by modifying `deploy.js` to include block creation and validation. Then, run:
-```sh
+### 7. Run the Final Simulation
+Start the Hardhat node in one terminal:
+```bash
+npx hardhat node
+```
+Deploy the contract in a second terminal:
+```bash
+cd C:\Users\HANITHA\blockchain-hardhat
 npx hardhat run scripts/deploy.js --network hardhat
 ```
 
-## Final Output
+### Final Output
 ```sh
 C:\Users\HANITHA\blockchain-hardhat>npx hardhat run scripts/deploy.js --network hardhat
 SimpleBlockchain deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
